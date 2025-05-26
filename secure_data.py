@@ -5,7 +5,7 @@ import hashlib
 import json
 import os
 import time
-from cryptography.fernet import Fernet
+from cryptography.fernet import Fernet  # type: ignore
 import base64
 from hashlib import pbkdf2_hmac
 
